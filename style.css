@@ -16,9 +16,9 @@
 .container{
     margin-bottom: 100px;
 }
-.container img{
+.item-style img{
     width: 200px;
-}
+} 
 .item-style{
     border:2px solid green;
     border-radius: 10px;
@@ -30,4 +30,21 @@
     color: white;
     padding: 10px 20px;
     font-weight: 800px;
+}
+.price{
+    color: green;
+}
+.card-body{
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: rgb(77, 136, 77);
+}
+#Subscribe{
+    height: 300px;
+}
+#Subscribe h6{
+    color: gray;
 }
